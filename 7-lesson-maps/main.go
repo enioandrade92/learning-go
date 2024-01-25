@@ -9,11 +9,16 @@ func main()  {
 	salarios["osk"] = 500
 	fmt.Println(salarios)
 
+	// for key, value
 	for nome, salario := range salarios {
 		fmt.Printf("O salario de %s é %d\n", nome, salario)
 	}
 
 	for _, salario := range salarios {
 		fmt.Printf("O salario é %d\n", salario)
+	}
+
+		for nome,_ := range salarios {
+		fmt.Printf("O nome é %s\n", nome)
 	}
 }
