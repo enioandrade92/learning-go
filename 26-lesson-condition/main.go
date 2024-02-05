@@ -8,19 +8,19 @@ func main()  {
 	c := 2
 
 	if a == b {
-		fmt.Printf("equal")
+		fmt.Printf("equal \n")
 	// not exist else if
 	} else {
-		fmt.Printf("any")
+		fmt.Printf("any \n")
 	}
 
 	if a+b == c {
-		fmt.Printf("true")
+		fmt.Printf("true \n")
 	}
 
 	switch a {
 		case 1:
-			println("a")
+			println("a \n")
 		case 2:
 			println("b")
 		case 3:
