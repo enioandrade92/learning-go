@@ -36,12 +36,13 @@ func main()  {
 	// convert from byte to string
 	fmt.Println(string(file))
 
-	// reading in parts
+	// open file
 	readFile, err := os.Open("file.txt")
 	if err != nil {
 		panic(err)
 	}
-
+	
+	// reading in parts
 	reader := bufio.NewReader(readFile)
 	buffer := make([]byte,1)
 
